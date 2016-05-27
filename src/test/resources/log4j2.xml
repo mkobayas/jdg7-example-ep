@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="OFF">
+    <Appenders>
+        <Console name="CONSOLE" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{DEFAULT} %-5level [%-35t] (%c) %m%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="CONSOLE" />
+        </Root>
+
+        <Logger name="org.mk300" level="DEBUG"/>
+        <Logger name="org.infinispan.remoting.transport.jgroups.JGroupsTransport" level="WARN"/>
+    </Loggers>
+</Configuration>
