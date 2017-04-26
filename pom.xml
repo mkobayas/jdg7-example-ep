@@ -9,7 +9,7 @@
 
 
     <properties>
-        <jdg.version>8.3.0.ER4-redhat-1</jdg.version>
+        <jdg.version>8.4.0.Final-redhat-2</jdg.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
